@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Platzhalterfoto Max Muster</title>
+  <desc id="desc">Abstrakter Portraet Platzhalter mit blauen Akzenten.</desc>
+  <rect width="320" height="320" rx="160" fill="#dceff5"/>
+  <circle cx="160" cy="132" r="68" fill="#125c75"/>
+  <path d="M54 294c18-66 66-102 106-102s88 36 106 102" fill="#0b4052"/>
+  <circle cx="132" cy="122" r="8" fill="#ffffff"/>
+  <circle cx="188" cy="122" r="8" fill="#ffffff"/>
+  <path d="M134 160c16 14 36 14 52 0" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>
