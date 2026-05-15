@@ -8,11 +8,13 @@ Statische Kontaktseite fuer ein Projektteam mit vier Gruppenmitgliedern. Die Sei
 - `style.css`: Gestaltung, Layout und responsive Darstellung
 - `script.js`: Funktion zum Kopieren der E-Mail-Adressen
 - `images/`: Teamfotos fuer die vier Personen
+- `downloads/`: PDF-Unterlagen zum Herunterladen
 
 ## GitHub Pages veroeffentlichen
 
 1. Neues GitHub Repository erstellen.
 2. `index.html`, `style.css`, `script.js`, `README.md` und den Ordner `images` in das Repository laden.
+   Den Ordner `downloads` ebenfalls hochladen, damit die PDF-Links funktionieren.
 3. In GitHub zu `Settings` > `Pages` gehen.
 4. Unter `Build and deployment` die Quelle `Deploy from a branch` waehlen.
 5. Branch `main` und Ordner `/root` auswaehlen.
@@ -36,6 +38,13 @@ Die aktuell verwendeten Teamfotos heissen:
 - `images/robin_frickl.png`
 
 Wenn Fotos ersetzt werden, sollten sie quadratisch zugeschnitten sein, zum Beispiel als `.jpg`, `.png` oder `.webp`.
+
+Die aktuell verwendeten Projektunterlagen heissen:
+
+- `downloads/PM2_Handout_WI24t_Gruppe3.pdf`
+- `downloads/PM2_Poster_WI24t_Gruppe3.pdf`
+
+Wenn PDF-Dateien ersetzt werden, muessen die Dateipfade in den Download- und Anzeige-Links in `index.html` entsprechend angepasst werden.
 
 ## Lokal testen
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kontaktseite des Projektteams mit Kontaktdaten der vier Gruppenmitglieder.">
+  <meta name="description" content="Kontaktseite des Projektteams mit Projektunterlagen und Kontaktdaten der vier Gruppenmitglieder.">
   <title>Kontakt Projektteam</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
@@ -15,10 +15,49 @@
       <p class="hero-text">
         Vielen Dank für Ihr Interesse an unserem Projekt. Hier finden Sie die Kontaktdaten unserer Gruppenmitglieder.
       </p>
+      <div class="hero-actions" aria-label="Schnellzugriff">
+        <a class="button button-primary" href="#downloads">Projektunterlagen</a>
+        <a class="button button-secondary" href="#contacts-heading">Kontakt aufnehmen</a>
+      </div>
     </div>
   </header>
 
   <main>
+    <section class="downloads-section" id="downloads" aria-labelledby="downloads-heading">
+      <div class="section-header">
+        <p class="eyebrow">Projektunterlagen</p>
+        <h2 id="downloads-heading">Handout und Poster herunterladen</h2>
+      </div>
+
+      <div class="downloads-grid">
+        <article class="document-card">
+          <div class="document-icon" aria-hidden="true">PDF</div>
+          <div class="document-content">
+            <p class="document-type">Handout</p>
+            <h3>PM2 Handout Gruppe 3</h3>
+            <p class="document-meta">PDF, 2 Seiten, 225 KB</p>
+            <div class="document-actions">
+              <a class="button button-primary" href="./downloads/PM2_Handout_WI24t_Gruppe3.pdf" download>Download</a>
+              <a class="button button-secondary" href="./downloads/PM2_Handout_WI24t_Gruppe3.pdf" target="_blank" rel="noopener noreferrer">PDF ansehen</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="document-card">
+          <div class="document-icon" aria-hidden="true">PDF</div>
+          <div class="document-content">
+            <p class="document-type">Poster</p>
+            <h3>PM2 Poster Gruppe 3</h3>
+            <p class="document-meta">PDF, 1 Seite, 1.6 MB</p>
+            <div class="document-actions">
+              <a class="button button-primary" href="./downloads/PM2_Poster_WI24t_Gruppe3.pdf" download>Download</a>
+              <a class="button button-secondary" href="./downloads/PM2_Poster_WI24t_Gruppe3.pdf" target="_blank" rel="noopener noreferrer">PDF ansehen</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="contacts-section" aria-labelledby="contacts-heading">
       <div class="section-header">
         <p class="eyebrow">Gruppenmitglieder</p>
